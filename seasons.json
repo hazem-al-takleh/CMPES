@@ -1,0 +1,14 @@
+{
+  "01": ["Winter"],
+  "02": ["Winter"],
+  "03": ["Winter", "Spring"],
+  "04": ["Spring"],
+  "05": ["Spring"],
+  "06": ["Spring", "Summer"],
+  "07": ["Summer"],
+  "08": ["Summer"],
+  "09": ["Summer", "Autumn"],
+  "10": ["Autumn"],
+  "11": ["Autumn"],
+  "12": ["Autumn", "Winter"]
+}
