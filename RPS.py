@@ -117,9 +117,8 @@ def audionode():
 @scheduler.task('interval', id='do_job_1', seconds=2*interval, misfire_grace_time=None)
 def job1():
     if t.elapsed()>interval:
-        print("ALAAAAAAAAAAAAAAAAAAAAAARM")
         # alarm node
-        # r = requests.post('http://'+node_server+'/api/v1/users/SentEmail', json={'email': emailId})
+        r = requests.post('http://'+node_server+'/api/v1/users/SentEmail', json={'email': emailId})
 
 @scheduler.task('interval', id='do_job_2', seconds=20, misfire_grace_time=2)
 def runnn():
